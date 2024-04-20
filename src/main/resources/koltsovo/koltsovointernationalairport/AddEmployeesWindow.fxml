@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="400.0" style="-fx-background-color: #0099DB;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="koltsovo.koltsovointernationalairport.AddingEmployeesController">
+   <children>
+      <AnchorPane layoutY="65.0" prefHeight="465.0" prefWidth="400.0" style="-fx-background-color: #3BB7ED;">
+         <children>
+            <Label layoutX="131.0" layoutY="6.0" text="Adding Employee" textFill="WHITE">
+               <font>
+                  <Font name="Magnolia-Script" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="positionEmployeesField" layoutX="48.0" layoutY="80.0" prefHeight="37.0" prefWidth="304.0" />
+            <TextField id="usernameField" fx:id="phoneEmployeesField" focusTraversable="false" layoutX="48.0" layoutY="296.0" prefHeight="26.0" prefWidth="304.0" promptText="Phone Number" style="-fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </TextField>
+            <TextField id="usernameField" fx:id="addressEmployeesField" focusTraversable="false" layoutX="48.0" layoutY="348.0" prefHeight="26.0" prefWidth="304.0" promptText="Address" style="-fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </TextField>
+            <Button fx:id="confirmEmployeeButton" layoutX="134.0" layoutY="405.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" stylesheets="@../css/AddAircraftsWindow.css" text="Confirm" textFill="WHITE">
+               <font>
+                  <Font name="Magnolia-Script" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="48.0" layoutY="45.0" text="Position" textFill="WHITE">
+               <font>
+                  <Font name="Magnolia-Script" size="18.0" />
+               </font>
+            </Label>
+            <TextField id="usernameField" fx:id="surnameEmployeesField" focusTraversable="false" layoutX="48.0" layoutY="140.0" prefHeight="26.0" prefWidth="304.0" promptText="Surname" style="-fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </TextField>
+            <TextField id="usernameField" fx:id="nameEmployeesField" focusTraversable="false" layoutX="48.0" layoutY="192.0" prefHeight="26.0" prefWidth="304.0" promptText="Name" style="-fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </TextField>
+            <TextField id="usernameField" fx:id="patronymicEmployeesField" focusTraversable="false" layoutX="48.0" layoutY="244.0" prefHeight="26.0" prefWidth="304.0" promptText="Patronymic" style="-fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="37.0" fitWidth="267.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/SVX-Logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

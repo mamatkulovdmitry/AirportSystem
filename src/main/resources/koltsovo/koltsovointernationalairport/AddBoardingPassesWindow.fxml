@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="400.0" style="-fx-background-color: #0099DB;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="koltsovo.koltsovointernationalairport.AddingBoardingPassesController">
+   <children>
+      <AnchorPane layoutY="65.0" prefHeight="410.0" prefWidth="400.0" style="-fx-background-color: #3BB7ED;">
+         <children>
+            <Label layoutX="109.0" layoutY="6.0" text="Adding Boarding Pass" textFill="WHITE">
+               <font>
+                  <Font name="Magnolia-Script" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="flightNumberBoardingPassesField" layoutX="48.0" layoutY="80.0" prefHeight="37.0" prefWidth="304.0" />
+            <TextField id="usernameField" fx:id="ticketNumberBoardingPassesField" focusTraversable="false" layoutX="48.0" layoutY="220.0" prefHeight="26.0" prefWidth="304.0" promptText="Ticket Number" style="-fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </TextField>
+            <TextField id="usernameField" fx:id="departureDateBoardingPassesField" focusTraversable="false" layoutX="47.0" layoutY="280.0" prefHeight="26.0" prefWidth="304.0" promptText="Departure Date" style="-fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </TextField>
+            <ChoiceBox fx:id="passengerBoardingPassesField" layoutX="48.0" layoutY="160.0" prefHeight="37.0" prefWidth="304.0" />
+            <Button fx:id="confirmBoardingPassesButton" layoutX="135.0" layoutY="340.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" stylesheets="@../css/AddAircraftsWindow.css" text="Confirm" textFill="WHITE">
+               <font>
+                  <Font name="Magnolia-Script" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="48.0" layoutY="45.0" text="Flight Number" textFill="WHITE">
+               <font>
+                  <Font name="Magnolia-Script" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="125.0" text="Passenger" textFill="WHITE">
+               <font>
+                  <Font name="Magnolia-Script" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="37.0" fitWidth="267.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/SVX-Logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
